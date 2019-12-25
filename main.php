@@ -90,7 +90,8 @@ if (!defined('DOKU_INC')) die(); // must be run from within DokuWiki
             </div>
             <div class="tools">
                 <div class="pagename">
-                    [[<?php tpl_link(wl($ID,'do=backlink'),tpl_pagetitle($ID,true),'title="'.$lang['btn_backlink'].'"')?>]]
+                    <!-- mcb30 - removed backlinks and replaced with logo -->
+                    <?php tpl_link(wl(),tpl_getConf('logo'),'name="dokuwiki__logo" id="dokuwiki__logo"'); ?>
                 </div>
             </div>
 
