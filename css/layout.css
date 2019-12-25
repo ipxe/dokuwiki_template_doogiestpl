@@ -79,6 +79,9 @@
     font-size: 200%;
     font-weight: bolder;
     color: __background_alt__;
+    position: absolute;
+    top: 15px;
+    right: 30px;
 }
 .dokuwiki.hasLongTitles .pagename {
     font-size: 100%;
